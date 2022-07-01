@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "slideshow_homes",
+  "info": {
+    "singularName": "slideshow-home",
+    "pluralName": "slideshow-homes",
+    "displayName": "Slideshow Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slideshow": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
